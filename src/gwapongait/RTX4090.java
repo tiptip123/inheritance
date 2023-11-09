@@ -1,14 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package gwapongait;
 
-/**
- *
- * @author Admin
- */
-public class RTX4090 {
-    
+public class RTX4090 extends VideoCard {
+
+    RTX4090(String videoCard) {
+        super(videoCard);
+
+    }
+
+    void broke() {
+        System.out.println(videoCard + " is broken");
+
+    }
+
 }
