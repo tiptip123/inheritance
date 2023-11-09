@@ -9,7 +9,8 @@ public class GwapoNgaIt {
         RTX4090 myVideoCard = new RTX4090("BrandNewGPU");
         
         myVideoCard.broke();
-        
+        myVideoCard.expensive();
+        myVideoCard.nice();
     }
     
 }

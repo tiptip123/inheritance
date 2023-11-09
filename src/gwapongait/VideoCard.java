@@ -10,4 +10,12 @@ public class VideoCard {
     }
     
     
+    void nice(){
+        System.out.println(videoCard +" is nice");
+    }
+    void expensive(){
+        System.out.println(videoCard +" is expensive");
+    }
+    
+    
 }
